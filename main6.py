@@ -78,7 +78,7 @@ async def vip_3_days(msg: types.Message):
         payload="vip_3_days",
         provider_token="",
         currency="XTR",
-        prices=[LabeledPrice(label="VIP 3 дня", amount=100)]
+        prices=[LabeledPrice(label="VIP 3 дня", amount=1)]
     )
 
 # --- ⭐ 3 МЕСЯЦА ---
