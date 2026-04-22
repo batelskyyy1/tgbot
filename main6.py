@@ -6,7 +6,7 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
 from aiogram.types import LabeledPrice
 
-TOKEN = "8758043141:AAF7pEGOBcDCDw7ZYe-3qyiEFbJCHESr98g"
+TOKEN = "8758043141:AAH3YZOV2oHZAw1I89K03lA-GXBXSpJoqqo"
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
