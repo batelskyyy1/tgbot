@@ -118,8 +118,13 @@ async def success(msg: types.Message):
     )
     conn.commit()
 
-    await msg.answer(f"✅ Оплата прошла!\n📅 Доступ до: {until}")
+    link = "https://t.me/+EIzZleRPZrE0ZGUx"
 
+    await msg.answer(
+        f"✅ Оплата прошла!\n"
+        f"📅 Доступ до: {until}\n\n"
+        f"🔐 Твоя приватка:\n{link}"
+    )
 # --- СТАТУС ---
 @dp.message(lambda m: m.text == "📊 Статус")
 async def status(msg: types.Message):
